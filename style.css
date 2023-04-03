@@ -59,12 +59,14 @@ html, body {  height: 100%;
   width:80px;
   height:900px;
   font-size:80px;
+  word-wrap: break-word;
 }
 
 #black{
   width:80px;
   height:1000px;
   font-size:80px;
+  word-wrap: break-word;
 }
 
 #turnChance{
@@ -119,4 +121,44 @@ html, body {  height: 100%;
   display:flex;
   margin-top:40px;
   margin-left:100px;
+}
+
+.numIndicater{
+  width: 10px;
+  height: 1000px;
+  grid-template-rows: repeat(8,1fr);
+  position: absolute;
+  top:51px;
+  left:464px;
+  color:#EEEED2;
+  font-weight: bolder;
+  font-size:28px
+}
+
+.even{
+  color: #769656; 
+ }
+
+.odd{
+  color: #EEEED2;
+}
+
+.width{
+  height:125px;
+}
+
+.AlpIndicater{
+  width: 1000px;
+  height: 10px;
+  position: absolute;
+  top: 1013px;
+  left:561px;
+  color:#EEEED2;
+  font-weight: bolder;
+  display: flex;
+  font-size:28px
+}
+
+.alp{
+  width:125px;
 }

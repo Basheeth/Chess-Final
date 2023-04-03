@@ -125,6 +125,7 @@
     //To hide the item , when dragged
     
     parentDiv = this.parentElement;//Parent element of the dragged item
+    console.log(parentDiv)
     dragItem = this; //the item which is dragged
     dragItemClass = this.className;//class name of the dragged item
     a = parentDiv.id.split("");
@@ -240,10 +241,10 @@
             }
             if (tellWin == 0){
             if (same == "White"){
-              alert(different + " Won");
+              alert(same + " Won");
             }
             else if (same == "Black"){
-              alert(same + " Won");
+              alert(different + " Won");
             }
             }
           } 
